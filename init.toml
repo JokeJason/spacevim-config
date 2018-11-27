@@ -25,6 +25,9 @@
     enable_statusline_display_mode = false
     filemanager = "nerdtree"
 
+
+    diabled_plugins = ["fcitx.vim"]
+
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
@@ -37,14 +40,12 @@ default_position = 'top'
 default_height = 30
 
 [[layers]]
-name = "fzf"
-
-[[layers]]
-name = "git"
-
-[[layers]]
-name = "ctrlp"
-
-
-[[layers]]
 name = "cscope"
+
+[[layers]]
+name = "unite"
+
+[[custom_plugins]]
+name = "Shougo/vimproc.vim"
+on_command = ["cscope"]
+merged = 0
