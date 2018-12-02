@@ -48,4 +48,7 @@ name = "unite"
 [[custom_plugins]]
 name = "Shougo/vimproc.vim"
 on_command = ["cscope"]
-merged = 0
+mejrged = 0
+
+[[custom_plugins]]
+name = "rdnetto/YCM-Generator"
